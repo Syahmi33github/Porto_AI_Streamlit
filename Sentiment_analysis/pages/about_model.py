@@ -101,7 +101,7 @@ def about_case():
 
         <p class="custom-text">
             Because the labels in the dataset only use positive and negative, the neutral label will not be used. 
-            Hasil perbandingan yang didapat, akurasi mencapai 82.9%
+            The comparison results obtained, accuracy reached 82.9%
         </p>
         """, 
         unsafe_allow_html=True
