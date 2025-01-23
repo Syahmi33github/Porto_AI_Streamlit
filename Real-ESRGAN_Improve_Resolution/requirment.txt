@@ -1,0 +1,9 @@
+git clone https://github.com/xinntao/Real-ESRGAN.git
+torchvision==0.15.1
+basicsr
+facexlib
+gfpgan
+streamlit
+subprocess
+os
+PIL
