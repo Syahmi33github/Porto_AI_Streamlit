@@ -1,6 +1,0 @@
-streamlit
-pandas
-matplotlib
-pandas
-tensorflow==2.15.0
-tensorflow_hub==0.15.1
