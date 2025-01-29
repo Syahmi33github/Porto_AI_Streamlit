@@ -1,0 +1,6 @@
+dotenv
+langchain_community
+langchain_ollama
+langchain_core
+langchain_core.output_parsers
+re

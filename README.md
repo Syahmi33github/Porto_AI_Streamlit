@@ -52,3 +52,28 @@ To install the required dependencies, you can use the following command:
 pip install streamlit langchain_ollama langchain_core dotenv langchain_community PyMuPDF
 
 ```
+
+## 7. Web Scraping and Question Answering with LangChain
+
+This project demonstrates how to scrape web content and use a Language Model (LLM) to answer questions based on the scraped text. The application utilizes `langchain`, `dotenv`, and `llama3.2:3b` to process and summarize the content.
+
+### Requirements
+
+To run the project, you need the following Python libraries. You can install them using the provided `requirements.txt`.
+
+- `dotenv`
+- `langchain_community`
+- `langchain_ollama`
+- `langchain_core`
+
+### Setup
+
+1. Clone this repository or download the project files.
+
+2. Create a `.env` file to configure the environment variables if necessary.
+
+3. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
