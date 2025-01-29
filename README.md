@@ -3,6 +3,154 @@
 Medium:
 https://medium.com/@syahmisajid12
 
+## 1. Credit Card Fraud Detection
+
+### Introduction
+
+This article discusses how to detect credit card fraud using machine learning, focusing on imbalanced datasets where legitimate transactions far outnumber fraudulent ones.
+
+### Dataset & Problem
+
+The dataset from Kaggle includes features such as transaction distance, retailer information, and whether the transaction was online or used a chip/PIN. The main issue is class imbalance, with fraudulent transactions being much less frequent than legitimate ones.
+
+### Solution
+
+To address the class imbalance:
+
+- **Random Forest/Decision Tree**: Assign higher weights to the minority class.
+- **Oversampling/Undersampling**: SMOTE increases the minority class size, while undersampling reduces the majority class size.
+
+### Models Used
+
+- Random Forest
+- Decision Tree
+- Logistic Regression
+- KNN
+- SVM
+
+### Results
+
+#### Without Pre-processing
+
+- **Random Forest** showed the best performance.
+- **Other models** (Logistic Regression, KNN, SVM) underperformed due to difficulties in learning fraud patterns.
+
+#### With Oversampling (SMOTE)
+
+- **Random Forest**: F1-score of 0.9952.
+- **Decision Tree**: F1-score of 0.9670.
+- **Logistic Regression**: F1-score of 0.7524.
+- **KNN**: F1-score of 0.6618.
+- **SVM**: F1-score of 0.6010.
+
+### Conclusion
+
+Random Forest is the most effective model for detecting fraud, particularly when combined with oversampling techniques like SMOTE.
+
+### Requirements
+
+- Python 3.x
+- Libraries: Pandas, NumPy, Scikit-learn, SMOTE (imbalanced-learn)
+
+## 2. Animal Face Classification Using Deep Learning & Transfer Learning
+
+### Introduction
+
+This project develops an animal face classification system using deep learning and transfer learning. The model classifies images of **cats, dogs, and wild animals** with high accuracy, leveraging pre-trained models to improve performance.
+
+### Dataset
+
+- **Source**: Animal Faces-HQ (AFHQ) from Kaggle.
+- **Size**: 16,130 high-resolution images (512×512).
+- **Class Distribution**:
+  - **Cat** (~5,000 images)
+  - **Dog** (~5,000 images)
+  - **Wildlife** (~5,000 images)
+- **Split**: 14,630 images for training, 1,500 for validation.
+
+### Models & Performance
+
+Three models were tested:
+
+1. **Base CNN Model**: Accuracy **0.9213**
+2. **ResNet**: Accuracy **0.9980**
+3. **EfficientNet**: Accuracy **0.9993** (Best performance)
+
+Pre-trained models like **EfficientNet** outperform the Base Model due to better generalization, optimized parameter efficiency, and balanced network architecture.
+
+### Conclusion
+
+EfficientNet achieves the highest accuracy, demonstrating the power of **transfer learning** in animal face classification.
+
+### Requirements
+
+- Python 3.x
+- TensorFlow / Keras
+- OpenCV
+- NumPy & Pandas
+
+## 3. Sentiment Analysis on Twitter Using BERT-Base-Uncased-Sentiment
+
+### Introduction
+
+This project evaluates the **bert-base-uncased-sentiment** model for **Twitter sentiment analysis**, classifying tweets as **positive, negative, or neutral**. The model's performance is assessed using **accuracy** by comparing predictions to true labels.
+
+### Dataset
+
+- **Source**: Sentiment140 (Kaggle)
+- **Size**: 2,500 tweets (filtered from 1.6M)
+- **Label Distribution**:
+  - **Positive**: 1,287 (51.2%)
+  - **Negative**: 1,213 (48.8%)
+- **Preprocessing**:
+  - Renamed labels (0 → negative, 4 → positive)
+  - Removed tags & links
+  - Filtered non-English tweets
+  - Final dataset: **2,283 tweets**
+
+### Model & Performance
+
+- Model: **bert-base-uncased-sentiment**
+- Results:
+  - **Positive**: 875
+  - **Negative**: 740
+  - **Neutral**: 668
+- Accuracy (positive/negative only): **82.9%**
+- Some predictions were debatable due to context ambiguity.
+
+### Conclusion
+
+The model performs well but struggles with nuanced sentiment. Future improvements could refine handling of **neutral cases** and **ambiguous expressions**.
+
+### Requirements
+
+- Python 3.x
+- Transformers (Hugging Face)
+- Pandas & NumPy
+
+## 4. Enhancing Image Resolution with Real-ESRGAN
+
+### Introduction
+
+Real-ESRGAN (Real-Enhanced Super-Resolution GAN) is a deep learning model designed to **enhance image resolution** while preserving details. It is widely used for **photo restoration, video enhancement, and noise reduction** in real-world images.
+
+### What is Real-ESRGAN?
+
+Real-ESRGAN extends **ESRGAN**, a **GAN-based** model for **image super-resolution**. Unlike traditional methods, it effectively processes **compressed or noisy images**, making it ideal for real-world applications.
+
+#### Key Features:
+
+- **Noise Handling**: Enhances low-quality images while maintaining details.
+- **Real-World Applications**: Useful for restoring **old photos**, enhancing **video quality**, and improving **compressed images**.
+- **Scalability**: Supports up to **4× image enlargement**.
+
+### Case Study: Restoring Old Photos
+
+#### Example:
+
+- **Input**: A low-resolution, aged photo.
+- **Output**: A high-resolution, sharp image with improved details.
+
 ## 5. **Chatbot with Historical Memory Using Llama 3.2 and Streamlit**
 
 This project implements a chatbot based on the **Llama 3.2** model equipped with **historical memory**, allowing the chatbot to remember and respond based on previous conversations. It is integrated with a **Streamlit** user interface, providing an interactive and user-friendly experience.
