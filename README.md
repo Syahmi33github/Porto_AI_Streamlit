@@ -225,3 +225,33 @@ To run the project, you need the following Python libraries. You can install the
    ```bash
    pip install -r requirements.txt
    ```
+
+## 8. RAG Chatbot for Health Supplements Q&A
+
+### Description
+
+This project aims to build a **Retrieval-Augmented Generation (RAG)** chatbot that can answer user questions about health supplements. The chatbot uses PDF documents as the main source of information, which are then converted into a vector database for faster and more accurate information retrieval.
+
+### Features
+
+- Retrieve information about health supplements based on PDF documents.
+- Uses **FAISS** for vector storage and search.
+- Integrates **Ollama** for embeddings and **Streamlit** for the user interface.
+- The chatbot provides relevant and accurate answers based on context retrieved from documents.
+
+### Requirements
+
+Before running this project, ensure you have the following dependencies installed:
+
+- Python
+- PyMuPDF
+- langchain
+- faiss-cpu
+- python-dotenv
+- streamlit
+
+You can install these dependencies using `pip`:
+
+```bash
+pip install PyMuPDF langchain faiss-cpu streamlit
+```
