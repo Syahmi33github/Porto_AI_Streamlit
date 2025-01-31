@@ -91,7 +91,7 @@ def about_predict():
         </h4>
 
         <h3 class="custom-text">
-            Sentiment : {sentiment})
+            Sentiment : {sentiment}
         </h3>
         """, 
         unsafe_allow_html=True
