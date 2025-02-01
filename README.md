@@ -255,3 +255,16 @@ You can install these dependencies using `pip`:
 ```bash
 pip install PyMuPDF langchain faiss-cpu streamlit
 ```
+
+## 9. LLM-SQL Integration with LangChain
+
+This project demonstrates the integration of Large Language Models (LLMs) with SQL databases using the LangChain framework. It utilizes _Ollama's LLaMA_ model to query a MySQL database by converting natural language questions into SQL queries.
+
+### Prerequisites
+
+Before you start, make sure to have the following installed and configured:
+
+- **Python** (3.7 or higher)
+- **MySQL Database**: Ensure you have a MySQL server running and accessible.
+- **LangChain**: Python library for building language model applications.
+- **Ollama**: LLaMA model for natural language processing.
