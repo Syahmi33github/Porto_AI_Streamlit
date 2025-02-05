@@ -268,3 +268,36 @@ Before you start, make sure to have the following installed and configured:
 - **MySQL Database**: Ensure you have a MySQL server running and accessible.
 - **LangChain**: Python library for building language model applications.
 - **Ollama**: LLaMA model for natural language processing.
+
+## 10. Fine-Tuning BERT for Multi-Class Emotion Recognition
+
+### Introduction
+
+This project fine-tunes the BERT-base-uncased model for multi-class emotion recognition on tweets. The goal is to classify emotions into multiple categories and evaluate model performance using accuracy and F1-score.
+
+### Model & Performance
+
+**Model:** BERT-base-uncased
+
+### Results:
+
+- **Accuracy:** 92%
+- **F1-score (weighted avg):** 92%
+- The model struggles slightly with ambiguous emotions like surprise and fear.
+
+### How to Download the Model
+
+To download the fine-tuned BERT model, use the following script:
+
+```python
+import gdown
+
+file_id = "1C8xKvnVr5qQWGth73s-yymmC0m_Lrpvl"  # ID file dari link Drive
+output = "bert-model.zip"  # Nama file output
+
+gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
+```
+
+### Conclusion
+
+Fine-tuning BERT for emotion recognition yields high accuracy but faces challenges with overlapping emotions. Future improvements could explore context-aware models to handle subtle emotional differences better. 🚀
