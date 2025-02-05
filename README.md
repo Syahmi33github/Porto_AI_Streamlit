@@ -301,3 +301,61 @@ gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 ### Conclusion
 
 Fine-tuning BERT for emotion recognition yields high accuracy but faces challenges with overlapping emotions. Future improvements could explore context-aware models to handle subtle emotional differences better. 🚀
+
+## 11. Fine-Tuning DistilBERT vs. BERT for Fake News Detection
+
+### Introduction
+
+This project compares the performance of BERT and DistilBERT for the task of fake news detection using a real-world dataset. The goal is to evaluate both models in terms of accuracy, F1-score, training time, and testing time, highlighting the trade-offs between computational efficiency and performance.
+
+### Data Overview
+
+The dataset consists of fake and real news articles, with columns including title, author, text, and label (0 for real news, 1 for fake news). The dataset has 18,281 samples, split as follows:
+
+- **Training Set:** 12,796 samples
+- **Testing Set:** 3,656 samples
+- **Validation Set:** 1,829 samples
+
+### Model & Performance
+
+**Models:**
+
+- BERT (bert-base-uncased)
+- DistilBERT (distilbert-base-uncased)
+
+**Evaluation Metrics:**
+
+- **Accuracy**
+- **F1-score** (weighted average)
+- **Training Time**
+- **Testing Time**
+
+### Results:
+
+- **BERT (bert-base-uncased):**
+
+  - **Test Accuracy:** 96.44%
+  - **Test F1 Score:** 96.44%
+  - **Testing Runtime:** 16.97 seconds
+  - **Training Time:** 895.35 seconds
+
+- **DistilBERT (distilbert-base-uncased):**
+  - **Test Accuracy:** 96.47%
+  - **Test F1 Score:** 96.47%
+  - **Testing Runtime:** 9.14 seconds
+  - **Training Time:** 494.78 seconds
+
+DistilBERT performs slightly better in terms of testing time and training time, while both models exhibit similar performance in accuracy and F1-score.
+
+### How to Download the Model
+
+To download the fine-tuned DistilBERT model, use the following script:
+
+```python
+import gdown
+
+file_id = "1D8lZkGnBqPq27zR1-wyff7YmDQx7qg9r"  # ID file dari link Drive
+output = "distilbert-model.zip"  # Nama file output
+
+gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
+```
