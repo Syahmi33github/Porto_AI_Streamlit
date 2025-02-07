@@ -359,3 +359,48 @@ output = "distilbert-model.zip"  # Nama file output
 
 gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 ```
+
+## 12. Fine-Tuning DistilBERT for Named Entity Recognition (NER) in Restaurant Search
+
+### Introduction
+
+This project fine-tunes DistilBERT for Named Entity Recognition (NER) in restaurant search, enhancing entity extraction from user queries to improve search accuracy.
+
+### Data Overview
+
+The dataset is in BIO format, containing labeled tokens for training and testing:
+
+- **Training Set:** 83.2%
+- **Testing Set:** 16.8%
+
+### Model & Performance
+
+**Model Used:**
+
+- DistilBERT (distilbert-base-uncased)
+
+**Evaluation Metrics:**
+
+- **Accuracy**
+
+### Results
+
+- **Epoch 1:** 91.07%
+- **Epoch 2:** 91.57%
+- **Epoch 3:** 91.89%
+
+The model shows consistent performance improvements across epochs.
+
+### How to Use the Model
+
+To test the fine-tuned model, use the following script:
+
+```python
+import gdown
+
+file_id = "18czl4uSDAxGxguS1rTM9JQ39UTtO8pPx"  # ID file dari link Drive
+output = "distilbert-model.zip"  # Nama file output
+
+gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
+
+```
