@@ -354,7 +354,7 @@ To download the fine-tuned DistilBERT model, use the following script:
 ```python
 import gdown
 
-file_id = "1D8lZkGnBqPq27zR1-wyff7YmDQx7qg9r"  # ID file dari link Drive
+file_id = "1BwvAVbsDzMsU-UMRh1gKBYST-wd6wRyE"  # ID file dari link Drive
 output = "distilbert-model.zip"  # Nama file output
 
 gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
