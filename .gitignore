@@ -1,2 +1,3 @@
 Fine-tuning_bert_for_multi_class_emotion_recognition/bert-base-uncased-sentiment-model/
 fine_tuning_distilbert_bertbase_fake_news_detection/fake_news_distilbert/
+fine-tuning_distilbert_for_NER_in_restaurant_search/model/
