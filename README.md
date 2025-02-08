@@ -404,3 +404,9 @@ output = "distilbert-model.zip"  # Nama file output
 gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 
 ```
+
+## 13. Fine-Tuned T5 for Summarization
+
+### Introduction
+
+This project focuses on summarizing dialogue-based texts using a fine-tuned T5 transformer model. The case study involves the Samsum dataset, which consists of human-written summaries of real-world conversations. The goal is to train a model that can generate concise and accurate summaries of dialogues, making it useful for applications such as customer service logs, meeting transcripts, and chatbot interactions.
