@@ -414,9 +414,11 @@ This project focuses on summarizing dialogue-based texts using a fine-tuned T5 t
 ## 14. Fine-Tuning a Chat Model using LLaMA with QLoRA
 
 ### Overview
+
 This project demonstrates how to fine-tune a chat-based language model using [TinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) and QLoRA (Quantized Low-Rank Adaptation) for efficient training. The dataset used is **UltraChat 200k**, a high-quality multi-turn chat dataset from Hugging Face.
 
 ### Features
+
 - Uses **QLoRA** for efficient fine-tuning with 4-bit quantization.
 - Leverages **TinyLlama-1.1B-Chat-v1.0** as the base model.
 - Implements **LoRA (Low-Rank Adaptation)** to optimize memory usage and computation.
@@ -424,7 +426,9 @@ This project demonstrates how to fine-tune a chat-based language model using [Ti
 - Saves and merges the fine-tuned model for deployment.
 
 ### Dependencies
+
 To run this project, ensure you have the following libraries installed:
+
 - `transformers`
 - `datasets`
 - `bitsandbytes`
@@ -433,15 +437,16 @@ To run this project, ensure you have the following libraries installed:
 - `accelerate`
 
 You can install them using:
-```bash
 pip install -q accelerate bitsandbytes trl peft transformers datasets
 
 ## 15. Fine-Tuning a Chat Model for Medical Data using LLaMA with QLoRA
 
 ### Overview
+
 This project demonstrates how to fine-tune a chat-based language model using [TinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) and QLoRA (Quantized Low-Rank Adaptation) for efficient training. The dataset used is [UCSD26/medical_dialog](https://huggingface.co/datasets/UCSD26/medical_dialog), a high-quality multi-turn chat dataset from Hugging Face.
 
 ### Features
+
 - Uses **QLoRA** for efficient fine-tuning with 4-bit quantization.
 - Leverages **TinyLlama-1.1B-Chat-v1.0** as the base model.
 - Implements **LoRA (Low-Rank Adaptation)** to optimize memory usage and computation.
@@ -449,7 +454,9 @@ This project demonstrates how to fine-tune a chat-based language model using [Ti
 - Saves and merges the fine-tuned model for deployment.
 
 ### Dependencies
+
 To run this project, ensure you have the following libraries installed:
+
 - `transformers`
 - `datasets`
 - `bitsandbytes`
@@ -458,5 +465,7 @@ To run this project, ensure you have the following libraries installed:
 - `accelerate`
 
 You can install them using:
+
 ```bash
 pip install -q accelerate bitsandbytes trl peft transformers datasets
+```
