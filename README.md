@@ -410,3 +410,53 @@ gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 ### Introduction
 
 This project focuses on summarizing dialogue-based texts using a fine-tuned T5 transformer model. The case study involves the Samsum dataset, which consists of human-written summaries of real-world conversations. The goal is to train a model that can generate concise and accurate summaries of dialogues, making it useful for applications such as customer service logs, meeting transcripts, and chatbot interactions.
+
+## 14. Fine-Tuning a Chat Model using LLaMA with QLoRA
+
+### Overview
+This project demonstrates how to fine-tune a chat-based language model using [TinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) and QLoRA (Quantized Low-Rank Adaptation) for efficient training. The dataset used is **UltraChat 200k**, a high-quality multi-turn chat dataset from Hugging Face.
+
+### Features
+- Uses **QLoRA** for efficient fine-tuning with 4-bit quantization.
+- Leverages **TinyLlama-1.1B-Chat-v1.0** as the base model.
+- Implements **LoRA (Low-Rank Adaptation)** to optimize memory usage and computation.
+- Fine-tunes the model on **10,000 samples** from UltraChat 200k.
+- Saves and merges the fine-tuned model for deployment.
+
+### Dependencies
+To run this project, ensure you have the following libraries installed:
+- `transformers`
+- `datasets`
+- `bitsandbytes`
+- `peft`
+- `trl`
+- `accelerate`
+
+You can install them using:
+```bash
+pip install -q accelerate bitsandbytes trl peft transformers datasets
+
+## 15. Fine-Tuning a Chat Model for Medical Data using LLaMA with QLoRA
+
+### Overview
+This project demonstrates how to fine-tune a chat-based language model using [TinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) and QLoRA (Quantized Low-Rank Adaptation) for efficient training. The dataset used is [UCSD26/medical_dialog](https://huggingface.co/datasets/UCSD26/medical_dialog), a high-quality multi-turn chat dataset from Hugging Face.
+
+### Features
+- Uses **QLoRA** for efficient fine-tuning with 4-bit quantization.
+- Leverages **TinyLlama-1.1B-Chat-v1.0** as the base model.
+- Implements **LoRA (Low-Rank Adaptation)** to optimize memory usage and computation.
+- Fine-tunes the model from UCSD26/medical_dialog.
+- Saves and merges the fine-tuned model for deployment.
+
+### Dependencies
+To run this project, ensure you have the following libraries installed:
+- `transformers`
+- `datasets`
+- `bitsandbytes`
+- `peft`
+- `trl`
+- `accelerate`
+
+You can install them using:
+```bash
+pip install -q accelerate bitsandbytes trl peft transformers datasets
