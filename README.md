@@ -153,6 +153,8 @@ Real-ESRGAN extends **ESRGAN**, a **GAN-based** model for **image super-resoluti
 
 ## 5. **Chatbot with Historical Memory Using Llama 3.2 and Streamlit**
 
+![UI Screenshot](Chabot_Langchain_Historycal_Chat/assets/screenshoots/UI.png)
+
 This project implements a chatbot based on the **Llama 3.2** model equipped with **historical memory**, allowing the chatbot to remember and respond based on previous conversations. It is integrated with a **Streamlit** user interface, providing an interactive and user-friendly experience.
 
 ### Key Features
