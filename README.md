@@ -5,6 +5,9 @@ https://medium.com/@syahmisajid12
 
 ## 1. Credit Card Fraud Detection
 
+![UI Screenshot](Credit_card_fraud_detection_p/credit_card_fraud_detection/assets/screenshots/4Predict_data_Fraud_1.png)
+![UI Screenshot](Credit_card_fraud_detection_p/credit_card_fraud_detection/assets/screenshots/4Predict_data_Non_Fraud_1.png)
+
 ### Introduction
 
 This article discusses how to detect credit card fraud using machine learning, focusing on imbalanced datasets where legitimate transactions far outnumber fraudulent ones.
@@ -54,6 +57,9 @@ Random Forest is the most effective model for detecting fraud, particularly when
 
 ## 2. Animal Face Classification Using Deep Learning & Transfer Learning
 
+![UI Screenshot](Dog_Cat_Clasification_p/Dog_Cat_Clasification/assets/screenshots/4about_predict_data_1.png)
+![UI Screenshot](Dog_Cat_Clasification_p/Dog_Cat_Clasification/assets/screenshots/4about_predict_data_3.png)
+
 ### Introduction
 
 This project develops an animal face classification system using deep learning and transfer learning. The model classifies images of **cats, dogs, and wild animals** with high accuracy, leveraging pre-trained models to improve performance.
@@ -90,6 +96,8 @@ EfficientNet achieves the highest accuracy, demonstrating the power of **transfe
 - NumPy & Pandas
 
 ## 3. Sentiment Analysis on Twitter Using BERT-Base-Uncased-Sentiment
+
+![UI Screenshot](Sentiment_analysis/assets/screenshoots/4Predict_your_data.png)
 
 ### Introduction
 
@@ -129,6 +137,9 @@ The model performs well but struggles with nuanced sentiment. Future improvement
 - Pandas & NumPy
 
 ## 4. Enhancing Image Resolution with Real-ESRGAN
+
+![UI Screenshot](Real-ESRGAN_Improve_Resolution/assets/screenshoot/2try_model_Real-ESRGAN.png)
+![UI Screenshot](Real-ESRGAN_Improve_Resolution/assets/screenshoot/2try_model_Real-ESRGAN_2.png)
 
 ### Introduction
 
@@ -175,6 +186,8 @@ Make sure you have the following prerequisites before starting:
 - Other required libraries (such as `torch`, `transformers`, etc.)
 
 ## 6. Chat with Your PDF - Streamlit Application
+
+![UI Screenshot](Chat_with_Your_PDF/assets/screenshoots/UI_page.png)
 
 This is a Streamlit-based web application that allows users to upload a PDF document, chat with an AI assistant, and get answers based on the content of the PDF. The assistant utilizes the `ChatOllama` model and `langchain` components to process and respond to user queries.
 
@@ -230,6 +243,8 @@ To run the project, you need the following Python libraries. You can install the
 
 ## 8. RAG Chatbot for Health Supplements Q&A
 
+![UI Screenshot](RAG_QnA_for_Health_Supplements/assets/screenshoot/image.png)
+
 ### Description
 
 This project aims to build a **Retrieval-Augmented Generation (RAG)** chatbot that can answer user questions about health supplements. The chatbot uses PDF documents as the main source of information, which are then converted into a vector database for faster and more accurate information retrieval.
@@ -273,6 +288,8 @@ Before you start, make sure to have the following installed and configured:
 
 ## 10. Fine-Tuning BERT for Multi-Class Emotion Recognition
 
+![UI Screenshot](Fine-tuning_bert_for_multi_class_emotion_recognition/assets/screenshoots/prediction_page.png)
+
 ### Introduction
 
 This project fine-tunes the BERT-base-uncased model for multi-class emotion recognition on tweets. The goal is to classify emotions into multiple categories and evaluate model performance using accuracy and F1-score.
@@ -305,6 +322,8 @@ gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 Fine-tuning BERT for emotion recognition yields high accuracy but faces challenges with overlapping emotions. Future improvements could explore context-aware models to handle subtle emotional differences better. 🚀
 
 ## 11. Fine-Tuning DistilBERT vs. BERT for Fake News Detection
+
+![UI Screenshot](fine_tuning_distilbert_bertbase_fake_news_detection/assets/screenshoots/predict_page.png)
 
 ### Introduction
 
@@ -363,6 +382,8 @@ gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 ```
 
 ## 12. Fine-Tuning DistilBERT for Named Entity Recognition (NER) in Restaurant Search
+
+![UI Screenshot](fine-tuning_distilbert_for_NER_in_restaurant_search/assets/screenshoots/predict_page.png)
 
 ### Introduction
 
