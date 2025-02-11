@@ -55,6 +55,9 @@ Random Forest is the most effective model for detecting fraud, particularly when
 - Python 3.x
 - Libraries: Pandas, NumPy, Scikit-learn, SMOTE (imbalanced-learn)
 
+Medium:
+https://medium.com/@syahmisajid12/credit-card-fraud-detection-overcoming-the-imbalanced-data-challenge-f0f9a0ff7645
+
 ## 2. Animal Face Classification Using Deep Learning & Transfer Learning
 
 ![UI Screenshot](Dog_Cat_Clasification_p/Dog_Cat_Clasification/assets/screenshots/4about_predict_data_1.png)
@@ -94,6 +97,9 @@ EfficientNet achieves the highest accuracy, demonstrating the power of **transfe
 - TensorFlow / Keras
 - OpenCV
 - NumPy & Pandas
+
+Medium:
+https://medium.com/@syahmisajid12/developing-an-animal-face-classification-system-using-deep-learning-and-transfer-learning-20154e625d0f
 
 ## 3. Sentiment Analysis on Twitter Using BERT-Base-Uncased-Sentiment
 
@@ -136,6 +142,9 @@ The model performs well but struggles with nuanced sentiment. Future improvement
 - Transformers (Hugging Face)
 - Pandas & NumPy
 
+Medium:
+https://medium.com/@syahmisajid12/sentiment-analysis-on-twitter-performance-evaluation-of-the-bert-base-uncased-sentiment-model-652a721a01a2
+
 ## 4. Enhancing Image Resolution with Real-ESRGAN
 
 ![UI Screenshot](Real-ESRGAN_Improve_Resolution/assets/screenshoot/2try_model_Real-ESRGAN.png)
@@ -162,6 +171,9 @@ Real-ESRGAN extends **ESRGAN**, a **GAN-based** model for **image super-resoluti
 - **Input**: A low-resolution, aged photo.
 - **Output**: A high-resolution, sharp image with improved details.
 
+Medium:
+https://medium.com/@syahmisajid12/enhancing-image-resolution-with-esrgan-a-deep-learning-approach-for-high-quality-visual-41359aa43a9f
+
 ## 5. **Chatbot with Historical Memory Using Llama 3.2 and Streamlit**
 
 ![UI Screenshot](Chabot_Langchain_Historycal_Chat/assets/screenshoots/UI.png)
@@ -184,6 +196,9 @@ Make sure you have the following prerequisites before starting:
 - `langchain`
 - `streamlit`
 - Other required libraries (such as `torch`, `transformers`, etc.)
+
+Medium:
+https://medium.com/@syahmisajid12/building-a-chatbot-with-historical-memory-using-llama-3-2-and-streamlit-98872ebdeb9f
 
 ## 6. Chat with Your PDF - Streamlit Application
 
@@ -216,6 +231,9 @@ pip install streamlit langchain_ollama langchain_core dotenv langchain_community
 
 ```
 
+Medium:
+https://medium.com/@syahmisajid12/building-a-chat-application-with-pdf-using-streamlit-and-llm-db7049d24133
+
 ## 7. Web Scraping and Question Answering with LangChain
 
 This project demonstrates how to scrape web content and use a Language Model (LLM) to answer questions based on the scraped text. The application utilizes `langchain`, `dotenv`, and `llama3.2:3b` to process and summarize the content.
@@ -240,6 +258,9 @@ To run the project, you need the following Python libraries. You can install the
    ```bash
    pip install -r requirements.txt
    ```
+
+Medium:
+https://medium.com/@syahmisajid12/market-news-reporting-with-webpage-loaders-powered-by-llm-ollama-21576127a463
 
 ## 8. RAG Chatbot for Health Supplements Q&A
 
@@ -273,6 +294,9 @@ You can install these dependencies using `pip`:
 pip install PyMuPDF langchain faiss-cpu streamlit
 ```
 
+Medium:
+https://medium.com/@syahmisajid12/building-a-rag-chatbot-for-health-supplement-q-a-eda52de9f490
+
 ## 9. LLM-SQL Integration with LangChain
 
 This project demonstrates the integration of Large Language Models (LLMs) with SQL databases using the LangChain framework. It utilizes _Ollama's LLaMA_ model to query a MySQL database by converting natural language questions into SQL queries.
@@ -285,6 +309,9 @@ Before you start, make sure to have the following installed and configured:
 - **MySQL Database**: Ensure you have a MySQL server running and accessible.
 - **LangChain**: Python library for building language model applications.
 - **Ollama**: LLaMA model for natural language processing.
+
+Medium:
+https://medium.com/@syahmisajid12/llm-sql-integration-with-langchain-building-an-ai-assistant-for-sql-queries-bf5be9d8ef1e
 
 ## 10. Fine-Tuning BERT for Multi-Class Emotion Recognition
 
@@ -320,6 +347,9 @@ gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 ### Conclusion
 
 Fine-tuning BERT for emotion recognition yields high accuracy but faces challenges with overlapping emotions. Future improvements could explore context-aware models to handle subtle emotional differences better. 🚀
+
+Medium:
+https://medium.com/@syahmisajid12/step-by-step-guide-to-fine-tuning-bert-for-multi-class-emotion-recognition-in-twitter-tweets-4b9f3911a652
 
 ## 11. Fine-Tuning DistilBERT vs. BERT for Fake News Detection
 
@@ -381,6 +411,9 @@ output = "distilbert-model.zip"  # Nama file output
 gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 ```
 
+Medium:
+https://medium.com/@syahmisajid12/fine-tuning-distilbert-for-named-entity-recognition-ner-in-restaurant-search-44a8373f6766
+
 ## 12. Fine-Tuning DistilBERT for Named Entity Recognition (NER) in Restaurant Search
 
 ![UI Screenshot](fine-tuning_distilbert_for_NER_in_restaurant_search/assets/screenshoots/predict_page.png)
@@ -428,11 +461,17 @@ gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 
 ```
 
+Medium:
+https://medium.com/@syahmisajid12/fine-tuning-distilbert-for-named-entity-recognition-ner-in-restaurant-search-44a8373f6766
+
 ## 13. Fine-Tuned T5 for Summarization
 
 ### Introduction
 
 This project focuses on summarizing dialogue-based texts using a fine-tuned T5 transformer model. The case study involves the Samsum dataset, which consists of human-written summaries of real-world conversations. The goal is to train a model that can generate concise and accurate summaries of dialogues, making it useful for applications such as customer service logs, meeting transcripts, and chatbot interactions.
+
+Medium:
+https://medium.com/@syahmisajid12/summarization-using-fine-tuned-t5-transformer-62d0630ff795
 
 ## 14. Fine-Tuning a Chat Model using LLaMA with QLoRA
 
@@ -461,6 +500,9 @@ To run this project, ensure you have the following libraries installed:
 
 You can install them using:
 pip install -q accelerate bitsandbytes trl peft transformers datasets
+
+Medium:
+https://medium.com/@syahmisajid12/fine-tuning-a-chat-model-using-tinyllama-and-qlora-4623474ac976
 
 ## 15. Fine-Tuning a Chat Model for Medical Data using LLaMA with QLoRA
 
@@ -492,3 +534,6 @@ You can install them using:
 ```bash
 pip install -q accelerate bitsandbytes trl peft transformers datasets
 ```
+
+Medium:
+https://medium.com/@syahmisajid12/fine-tuning-a-chat-model-using-tinyllama-and-qlora-4623474ac976
